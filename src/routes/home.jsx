@@ -29,7 +29,6 @@ function Home() {
 
             <div style={{marginTop:'8%'}}>
               <Button onClick={() => {window.location.href="/flights"}} className="indigo-btn" sx={{px: '5%'}}>Search Flights</Button>
-              <Button onClick={() => {window.location.href="https://github.com/ManavMehta-Official/FareCompare"}} className="gray-btn" sx={{ml:2, px: '7%'}}>Github &nbsp; <ArrowForwardIosIcon sx={{fontSize: '0.8rem'}} /></Button>
             </div>
 
         </Container>

@@ -27,7 +27,7 @@ function Info() {
   return (
     <>
         <Container maxWidth="fixed" sx={{justifyContent:'center'}} className="meteor-bg">
-            <Grid container sx={{mt:5}}>
+            {/* <Grid container sx={{mt:5}}>
                 <Grid item md={3}></Grid>
                 <Grid item xs={12} md={6} sx={{border:'1.2px solid var(--gray)', p:2, borderRadius:'0.4em'}}>
                     <Typography variant="h5" sx={{fontFamily:'var(--displayFont)', fontWeight:800, display:{xs:'none',md:'block'}}}><img src={logo} style={{width:'4%'}} />FareCompare India</Typography>
@@ -39,7 +39,7 @@ function Info() {
                     <Typography><b>Version:</b> {version}</Typography>
                 </Grid>
                 <Grid item md={3}></Grid>
-            </Grid>
+            </Grid> */}
 
             <Grid container sx={{mt:4, justifyContent:'center'}}>
                 <Grid item xs={12} md={5} sx={{border:'1.2px solid var(--gray)', p:2, borderRadius:'0.4em', mb:4}}>

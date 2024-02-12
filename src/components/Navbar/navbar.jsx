@@ -16,7 +16,7 @@ import InfoRoundedIcon from '@mui/icons-material/InfoRounded';
 import './navbar.css';
 import { Alert, Link, Snackbar, Tooltip } from '@mui/material';
 
-const pages = ['flights', 'info', 'github', 'support'];
+const pages = ['flights', 'info', 'support'];
 
 function toTitleCase(str) {
   return str.replace(
@@ -41,7 +41,7 @@ function ResponsiveAppBar() {
   };
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('manavmehta.official@gmail.com')
+    navigator.clipboard.writeText('kiranchaudhary537@gmail.com')
     .then(() => {setNotification(true)})
     .catch(() => {setErrNotif(true)});
   }
